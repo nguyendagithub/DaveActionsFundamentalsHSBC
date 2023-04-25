@@ -2,7 +2,7 @@ name: My test workflow
 
 on: [workflow_dispatch, push]
 
-workflow_dispatch:
+ workflow_dispatch:
     inputs:
       environment:
         description: 'Environment to deploy to'
