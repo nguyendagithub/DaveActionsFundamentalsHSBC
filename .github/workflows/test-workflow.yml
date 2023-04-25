@@ -1,7 +1,6 @@
 name: My test workflow
 
 on: [workflow_dispatch, push]
-
  workflow_dispatch:
     inputs:
       environment:
