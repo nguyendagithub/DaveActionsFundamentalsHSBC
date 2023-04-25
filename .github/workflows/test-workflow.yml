@@ -10,7 +10,7 @@ jobs:
   Test:
     runs-on: ubuntu-latest
     if: github.event_name == 'workflow_dispatch'
-    environment: Test
+    environment: Build
     steps:
       - run: echo "🧪 Testing..."
 
